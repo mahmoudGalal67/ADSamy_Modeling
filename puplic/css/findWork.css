@@ -1,0 +1,116 @@
+/* Find-wrok-page */
+main.find-work{
+  background: #F8F8FB;
+}
+main.find-work h1{
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 87.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main.find-work form{
+  width: 100%;
+}
+
+.mute{
+  color: #898989 !important;
+}
+
+main.find-work form .input-group{
+  padding: 12px;
+  margin: 15px 0;
+  border-bottom: 1px solid #878787;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main.find-work form .input-group .note{
+  border-radius: 4px;
+border: 1px solid #FAEBCC;
+background: #FCF8E3;
+padding: 8px;
+}
+
+main.find-work form .input-group label{
+  color: #000;
+font-family: Inter;
+font-size: 16.313px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 245.211% */
+text-transform: uppercase;
+}
+
+main.find-work form .input-group input,
+main.find-work form .input-group textarea{
+  border: 1px solid #878787;
+  flex: 1;
+  background: #FFF;
+  padding: 12px;
+}
+
+main.find-work form .input-group .right,
+main.find-work form .input-group .left{
+  flex: 1;
+}
+
+
+main.find-work form .input-group input::placeholder{
+  color: #A6A6A6;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+/* main.find-work form .input-group .ch-wrapper{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+} */
+
+main.find-work form .input-group .ch-wrapper label{
+  color: #878787;
+}
+
+main.find-work form .input-group .wrapper{
+  width: 100%;
+display: flex;
+justify-content: space-around;
+gap: 25px;
+flex-wrap: wrap;
+}
+
+main.find-work form .input-group .wrapper > img{
+  width: 30%;
+}
+
+main.find-work form .input-group label#upload{
+  padding: 12px;
+  background: #ECECEC;
+  text-align: center;
+}
+main.find-work form button.submit{
+  width: 100%;
+  background: #000;
+  padding: 8px;
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 21.875px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 320% */
+text-transform: uppercase;
+}
+
+
+
+/* Find-wrok-page */

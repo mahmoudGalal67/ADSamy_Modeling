@@ -764,3 +764,223 @@ section.banner.male-model h1 {
 
 /* banner-section */
 /* male-model-page */
+
+/* signUp-page */
+
+main.signUp .wrapper {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 45px;
+  background-color: #fff;
+}
+
+main.signUp .wrapper .card {
+  height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  gap: 18px;
+  width: 45%;
+  border-radius: 30px;
+  border: 2px solid #ff0086;
+  padding-bottom: 24px;
+}
+
+main.signUp .wrapper .card > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+main.signUp .wrapper .card h2 {
+  color: #ff0086;
+  font-family: Arimo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 24px;
+  margin: 0;
+  padding: 0;
+}
+main.signUp .wrapper .card h2 span {
+  color: black;
+}
+main.signUp .wrapper .card p {
+  color: #5c5c5c;
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+main.signUp .wrapper .card a {
+  border-radius: 30px;
+  background: #ff0086;
+  color: #fff;
+  font-family: Arimo;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 60.606% */
+  text-transform: uppercase;
+  padding: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 980px) {
+  main.signUp .wrapper .card {
+    width: 90%;
+  }
+  main.signUp .wrapper .card h2 {
+    font-size: 32px;
+  }
+  main.signUp .wrapper .card a {
+    font-size: 16px;
+  }
+}
+
+/* signUp-page */
+/* Find-wrok-page */
+main.find-work {
+  background: #f8f8fb;
+  padding: 18px;
+}
+main.find-work h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 87.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main.find-work form {
+  width: 100%;
+}
+
+.mute {
+  color: #898989 !important;
+}
+
+main.find-work form .input-group {
+  padding: 12px;
+  margin: 15px 0;
+  border-bottom: 1px solid #878787;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main.find-work form .input-group .note {
+  border-radius: 4px;
+  border: 1px solid #faebcc;
+  background: #fcf8e3;
+  padding: 8px;
+}
+
+main.find-work form .input-group label,
+main.find-work form .input-group span {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.313px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 245.211% */
+  text-transform: uppercase;
+}
+
+main.find-work form .input-group input,
+main.find-work form .input-group textarea {
+  border: 1px solid #878787;
+  flex: 1;
+  background: #fff;
+  padding: 12px;
+}
+
+main.find-work form .input-group .right,
+main.find-work form .input-group .left {
+  flex: 1;
+}
+
+main.find-work form .input-group input::placeholder {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main.find-work form .input-group .ch-wrapper label {
+  color: #878787;
+}
+
+main.find-work form .input-group .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+main.find-work form .input-group .wrapper > img {
+  width: 30%;
+}
+
+main.find-work form .input-group label#upload {
+  padding: 12px;
+  background: #ececec;
+  text-align: center;
+}
+
+.ex-wrapper {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.ST-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.ST-wrapper .ch-wrapper {
+  width: calc(50% - 12px);
+}
+
+main.find-work form button.submit {
+  width: 100%;
+  background: #000;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21.875px;
+  font-style: normal;
+  font-weight: 700;
+  margin-block: 36px;
+  line-height: 40px; /* 320% */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  main.find-work h1 {
+    font-size: 36px;
+  }
+  .ST-wrapper .ch-wrapper {
+    width: 100%;
+  }
+}
+
+/* Find-wrok-page */
