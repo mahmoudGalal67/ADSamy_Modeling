@@ -1,0 +1,986 @@
+/* home-page */
+/* her-section */
+
+main.hero .wrapper {
+  display: flex;
+  min-height: calc(100vh - 110px);
+}
+
+main.hero .wrapper .image-wrapper {
+  flex: 1;
+}
+
+@media (max-width: 780px) {
+  main.hero .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* her-section */
+
+/* about-section */
+
+section.about .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 0 12px;
+}
+
+section.about .wrapper .left,
+section.about .wrapper .right {
+  flex: 1;
+  width: 100%;
+}
+
+section.about .wrapper .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 32px;
+  color: white;
+  font-family: Montserrat;
+}
+
+section.about .wrapper .right span {
+  color: #ff0086;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+section.about .wrapper .right h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 39.6px; /* 110% */
+}
+section.about .wrapper .right p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+
+@media (max-width: 1080px) {
+  section.about .wrapper {
+    flex-direction: column;
+  }
+}
+
+/* about-section */
+
+/* looking-for-section */
+
+section.looking-for {
+  padding: 12px 36px;
+  background-color: black;
+}
+
+section.looking-for span {
+  color: #ff0086;
+  display: block;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+section.looking-for h2 {
+  color: #fff;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px; /* 110% */
+}
+section.looking-for .wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section.looking-for .wrapper .item {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+section.looking-for .wrapper img {
+  width: 180px;
+}
+
+section.looking-for .wrapper h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+}
+
+@media (max-width: 780px) {
+  section.looking-for {
+    padding: 6px;
+  }
+  section.looking-for .wrapper img {
+    width: 160px;
+  }
+}
+
+/* looking-for-section */
+
+/* testimonials-section */
+
+section.testimonials {
+  padding: 36px 0;
+}
+
+section.testimonials span {
+  color: #ff0086;
+  text-align: center;
+  display: block;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+
+section.testimonials h2 {
+  color: #fff;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px; /* 110% */
+}
+
+section.testimonials .wrapper {
+  position: relative;
+}
+
+section.testimonials .wrapper .item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.testimonials .wrapper p {
+  color: #e6d9d9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+section.testimonials .wrapper h3 {
+  color: #ff0086;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px; /* 150% */
+}
+section.testimonials .wrapper img {
+  width: 80px;
+}
+
+section.testimonials .wrapper .owl-nav {
+  position: absolute;
+  display: flex;
+  gap: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 45px;
+}
+
+section.testimonials .wrapper .owl-nav button span {
+  color: white;
+  font-size: 46px;
+}
+
+/* testimonials-section */
+
+/* top-models-section */
+
+section.top-models {
+  padding: 48px 36px;
+  background-color: black;
+}
+
+section.top-models > span {
+  color: #ff0086;
+  text-align: center;
+  display: block;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+
+section.top-models h2 {
+  color: #fff;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px; /* 110% */
+}
+
+section.top-models .wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+section.top-models .wrapper .item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 2px solid white;
+}
+
+section.top-models .wrapper .item img {
+  width: 150px;
+}
+section.top-models .wrapper .item .details {
+  padding: 16px;
+  background-color: #fff;
+  color: #000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.6px; /* 150.769% */
+}
+
+@media (max-width: 780px) {
+  section.top-models {
+    padding-inline: 6px;
+  }
+}
+
+/* top-models-section */
+
+/* our-services-section */
+
+section.our-services .main {
+  position: relative;
+  min-height: 100vh;
+
+  background-image: url(../images/home/our-services/handsome-men-beautiful-woman-outside-sun\ 1.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+section.our-services .main h2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 39.6px; /* 82.5% */
+}
+
+section.our-services .main .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section.our-services .gallary {
+  padding: 35px;
+}
+
+section.our-services .gallary > img {
+  margin-top: -28%;
+  z-index: 10;
+  position: relative;
+}
+
+@media (max-width: 780px) {
+  section.our-services .main h2 {
+    font-size: 32px;
+  }
+  section.our-services .main {
+    min-height: 60vh;
+  }
+}
+@media (max-width: 500px) {
+  section.our-services .main {
+    min-height: 30vh;
+  }
+}
+
+/* our-services-section */
+
+/* become-model-section */
+
+section.become-model {
+  margin-block: 65px;
+  min-height: 100vh;
+  padding: 0 36px;
+  position: relative;
+  z-index: 0;
+  min-height: 100vh;
+}
+
+section.become-model::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(0 0, 100% 26%, 100% 100%, 0% 100%);
+  background-image: url(../images/home/1_banner.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+section.become-model .wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+}
+
+section.become-model .wrapper .right {
+  height: 100%;
+  overflow: hidden;
+}
+
+section.become-model .wrapper .left {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+section.become-model .wrapper .left span {
+  color: #ff0086;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+section.become-model .wrapper .left h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 39.6px; /* 110% */
+}
+section.become-model .wrapper .left p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+
+section.become-model .wrapper .left a {
+  align-self: self-start;
+}
+
+section.become-model .wrapper .right img {
+  margin-bottom: -20px;
+}
+
+@media (min-width: 1220px) {
+  section.become-model .wrapper .left {
+    padding: 86px 0;
+  }
+}
+@media (max-width: 1180px) {
+  section.become-model .wrapper {
+    padding: 12px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  section.become-model .wrapper .right {
+    display: none;
+  }
+  section.become-model::before {
+    clip-path: none;
+  }
+}
+
+/* become-model-section */
+
+/* top-influencers-section */
+
+section.top-influencers {
+  padding: 24px 64px;
+}
+
+section.top span {
+  color: #ff0086;
+  text-align: center;
+  display: block;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+section.top h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 36px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39.6px; /* 110% */
+}
+
+section.top .image-wrapper {
+  padding: 18px;
+}
+
+section.top .owl-dots {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -7%;
+}
+
+@media (max-width: 700px) {
+  section.top-influencers {
+    padding: 12px;
+  }
+  section.top h2 {
+    font-size: 28px;
+  }
+}
+
+/* top-influencers-section */
+/* home-page */
+
+/* about-page */
+/* details-section */
+
+section.details {
+  padding: 24px 12%;
+}
+
+section.details .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: space-around;
+}
+
+section.details .wrapper h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34.29px; /* 142.875% */
+}
+
+section.details .wrapper p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+}
+
+/* details-section */
+
+/* top-models-section */
+section.top-models {
+  padding-inline: 12px;
+}
+/* top-models-section */
+
+/* chanceTo-become-mode-section */
+
+section.chanceTo-become-model {
+  padding: 12px 12%;
+  background: url(../images/aboutsUs/div.model_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+section.chanceTo-become-model .wrapper {
+  width: 50%;
+  padding: 8% 0;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 32px;
+  color: white;
+  font-family: Montserrat;
+}
+
+section.chanceTo-become-model .wrapper span {
+  color: #ff0086;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.86px; /* 142.875% */
+}
+section.chanceTo-become-model .wrapper h2 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 39.6px; /* 110% */
+}
+section.chanceTo-become-model .wrapper p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+
+@media (max-width: 980px) {
+  section.chanceTo-become-model .wrapper {
+    width: 100%;
+  }
+  section.chanceTo-become-model {
+    background-size: cover;
+  }
+}
+
+/* chanceTo-become-mode-section */
+/* about-page */
+
+/* contact-page */
+/* banner-section */
+
+section.banner.contact-us h1 {
+  right: 5%;
+  left: auto;
+}
+
+/* banner-section */
+
+/* contact-us-details-section */
+
+section.contact-us-details {
+  padding: 2% 8%;
+}
+
+section.contact-us-details h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34.29px; /* 142.875% */
+}
+
+section.contact-us-details .wrapper {
+  display: flex;
+  gap: 16px;
+}
+section.contact-us-details .wrapper .left,
+section.contact-us-details .wrapper .right {
+  flex: 1;
+}
+section.contact-us-details .wrapper .left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.contact-us-details .wrapper .left .box-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+section.contact-us-details .wrapper .left .box {
+  padding: 36px 24px;
+  border: 1px solid #111;
+  flex: 1;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-around;
+}
+section.contact-us-details .wrapper .left > .box {
+  align-self: stretch;
+  max-height: 160px;
+}
+
+section.contact-us-details .wrapper .left .box span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px; /* 110% */
+}
+section.contact-us-details .wrapper .left .box p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+section.contact-us-details .wrapper .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+}
+section.contact-us-details .wrapper .right .input-wrapper {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  section.contact-us-details .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 580px) {
+  section.contact-us-details .wrapper .right .input-wrapper,
+  section.contact-us-details .wrapper .left .box-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* contact-us-details-section */
+/* contact-page */
+
+/* influencer-page */
+/* banner-section */
+
+section.banner.influencer h1 {
+  left: 20%;
+}
+
+/* banner-section */
+
+/* main-gallary-section */
+
+section.main-gallary {
+  padding: 3% 6%;
+}
+
+section.main-gallary h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34.29px; /* 142.875% */
+}
+
+section.main-gallary .gallary {
+  margin-block: 28px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+section.main-gallary .gallary > img {
+  max-width: 350px;
+}
+
+@media (max-width: 850px) {
+  section.main-gallary .gallary > img {
+    max-width: 45%;
+  }
+}
+
+/* main-gallary-section */
+/* influencer-page */
+
+/* female-model-page */
+
+section.main-gallary .filters {
+  display: flex;
+  gap: 24px;
+}
+
+section.main-gallary .filters .filter-link a,
+section.main-gallary .filters .filter-link a::after {
+  transition: 0.3s ease-in-out;
+}
+
+section.main-gallary .filters .filter-link.active a {
+  color: #ff0086;
+}
+section.main-gallary .filters .filter-link.active a::after {
+  visibility: visible;
+}
+
+section.main-gallary .filters .filter-link a:hover {
+  color: #ff0086;
+}
+
+section.main-gallary .filters .filter-link a:hover::after {
+  visibility: visible;
+}
+
+section.main-gallary .filters .filter-link a::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  margin-top: 8px;
+  width: 80px;
+  height: 2px;
+  background-color: #ff0086;
+}
+
+@media (max-width: 650px) {
+  section.main-gallary .filters .filter-link h2 {
+    font-size: 16px;
+  }
+}
+
+/* female-model-page */
+
+/* male-model-page */
+/* banner-section */
+
+section.banner.male-model h1 {
+  right: 8%;
+  left: auto;
+}
+
+/* banner-section */
+/* male-model-page */
+
+/* signUp-page */
+
+main.signUp .wrapper {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 45px;
+  background-color: #fff;
+}
+
+main.signUp .wrapper .card {
+  height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  gap: 18px;
+  width: 45%;
+  border-radius: 30px;
+  border: 2px solid #ff0086;
+  padding-bottom: 24px;
+}
+
+main.signUp .wrapper .card > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+main.signUp .wrapper .card h2 {
+  color: #ff0086;
+  font-family: Arimo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 24px;
+  margin: 0;
+  padding: 0;
+}
+main.signUp .wrapper .card h2 span {
+  color: black;
+}
+main.signUp .wrapper .card p {
+  color: #5c5c5c;
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+}
+main.signUp .wrapper .card a {
+  border-radius: 30px;
+  background: #ff0086;
+  color: #fff;
+  font-family: Arimo;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 60.606% */
+  text-transform: uppercase;
+  padding: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 980px) {
+  main.signUp .wrapper .card {
+    width: 90%;
+  }
+  main.signUp .wrapper .card h2 {
+    font-size: 32px;
+  }
+  main.signUp .wrapper .card a {
+    font-size: 16px;
+  }
+}
+
+/* signUp-page */
+/* Find-wrok-page */
+main.find-work {
+  background: #f8f8fb;
+  padding: 18px;
+}
+main.find-work h1 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 87.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main.find-work form {
+  width: 100%;
+}
+
+.mute {
+  color: #898989 !important;
+}
+
+main.find-work form .input-group {
+  padding: 12px;
+  margin: 15px 0;
+  border-bottom: 1px solid #878787;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main.find-work form .input-group .note {
+  border-radius: 4px;
+  border: 1px solid #faebcc;
+  background: #fcf8e3;
+  padding: 8px;
+}
+
+main.find-work form .input-group label,
+main.find-work form .input-group span {
+  color: #000;
+  font-family: Inter;
+  font-size: 16.313px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 245.211% */
+  text-transform: uppercase;
+}
+
+main.find-work form .input-group input,
+main.find-work form .input-group textarea {
+  border: 1px solid #878787;
+  flex: 1;
+  background: #fff;
+  padding: 12px;
+}
+
+main.find-work form .input-group .right,
+main.find-work form .input-group .left {
+  flex: 1;
+}
+
+main.find-work form .input-group input::placeholder {
+  color: #a6a6a6;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+main.find-work form .input-group .ch-wrapper label {
+  color: #878787;
+}
+
+main.find-work form .input-group .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+main.find-work form .input-group .wrapper > img {
+  width: 30%;
+}
+
+main.find-work form .input-group label#upload {
+  padding: 12px;
+  background: #ececec;
+  text-align: center;
+}
+
+.ex-wrapper {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.ST-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.ST-wrapper .ch-wrapper {
+  width: calc(50% - 12px);
+}
+
+main.find-work form button.submit {
+  width: 100%;
+  background: #000;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21.875px;
+  font-style: normal;
+  font-weight: 700;
+  margin-block: 36px;
+  line-height: 40px; /* 320% */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  main.find-work h1 {
+    font-size: 36px;
+  }
+  .ST-wrapper .ch-wrapper {
+    width: 100%;
+  }
+}
+
+/* Find-wrok-page */
